@@ -17,7 +17,7 @@ const NFTImage = ({image}) => {
     
     <div className={style.wrapper}>
       <div className={style.nftHeader}>
-      <Image src='/eth-logo.svg' alt="nft" height={20} width={20} alt="eth" />
+      <Image src='/eth-logo.svg' alt="nft" height={20} width={20}/>
         <div className={style.likesContainer}>
           <AiOutlineHeart className={style.heartIcon}/>
           <div className={style.likesCount}>200 </div>

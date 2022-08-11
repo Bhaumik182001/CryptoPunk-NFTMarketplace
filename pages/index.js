@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useAddress, useMetamask } from '@thirdweb-dev/react'
 import  Main  from '../components/Home'
 
@@ -16,7 +17,10 @@ export default function Home() {
   const Auth = () => {
     return(
       <div className={style.wrapper}>
-        
+        <Head>
+        <title>OpenSea CryptoPunk</title>
+        <link rel="icon" href="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.png" />
+      </Head>
         <button onClick={connectWithMetamask}
         className={style.connectWalletButton}  
         >Connect     

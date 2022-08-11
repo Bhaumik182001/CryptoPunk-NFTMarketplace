@@ -18,7 +18,7 @@ export default function Home() {
     return(
       <div className={style.wrapper}>
         <Head>
-        <title>OpenSea CryptoPunk</title>
+        <title>OpenSea-CryptoPunk</title>
         <link rel="icon" href="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.png" />
       </Head>
         <button onClick={connectWithMetamask}

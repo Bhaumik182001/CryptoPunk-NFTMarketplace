@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CryptoPunk-NFTMarketplace Dapp
 
-## Getting Started
+**Live Demo**: [CryptoPunk-NFTMarketplace Dapp](https://opensea-cryptopunk-blockchain.netlify.app)
 
-First, run the development server:
+---
+
+## Overview
+
+CryptoPunk-NFTMarketplace is a decentralized app (Dapp) that allows users to list, buy, and trade Non-Fungible Tokens (NFTs). The platform is inspired by Robinhood and offers a user-friendly interface to engage with NFTs.
+
+---
+
+<img src="https://i.imgur.com/PLhs7B7.png" alt="BuzzBox Preview" height="500">
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+
+
+---
+
+## Features
+
+- **List and Buy NFTs**: Easily list your NFT collections and buy unique NFTs from others.
+- **ERC721 Compliant**: All NFTs minted through the platform comply with the ERC721 standards.
+- **MetaMask Authentication**: Users can easily log in and log out using MetaMask.
+- **Unique NFT Pages**: Each NFT has a dedicated page displaying its details like creator, image, and pricing.
+- **Transaction Verification**: Transactions can be verified via Etherscan.
+
+---
+
+## Technologies Used
+
+- **Next.js and React.js**: For the frontend
+- **ThirdWeb**: For creating a robust marketplace
+- **RPC Nodes**: To connect the marketplace to the blockchain
+- **ThirdWeb SDK**: For listing and buying NFTs
+- **MetaMask**: For user authentication
+- **Tailwind CSS**: For styling
+- **Etherscan**: For transaction verification
+
+---
+
+## Installation
 
 ```bash
-npm run dev
-# or
-yarn      dev
+git clone https://github.com/yourusername/cryptopunk-nftmarketplace.git
+cd cryptopunk-nftmarketplace
+npm install
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+----
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Usage
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open [http://localhost:3000](http://localhost:3000) with your web browser to see the application.
